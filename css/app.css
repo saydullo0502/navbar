@@ -81,6 +81,42 @@ nav {
     color: rgb(192, 192, 192);
 }
 
+.pro_max {
+    display: flex;
+    text-align: center;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 50px;
+
+}
+
+.pro_max h1 {
+    font-size: 70px;
+    color: #fff;
+}
+
+.pro_max p {
+    color: #fff;
+    font-size: 50px;
+}
+
+.pro_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.pro_link a {
+    display: flex;
+    align-items: flex-end;
+    color: #2997ff;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: 500;
+}
+
 section {
     width: 100%;
 }
